@@ -3,6 +3,7 @@
 int main() {
     printf("Hello, World!\n");
     printf("\n");
+
     // while
     int num = 0;
     while(num <= 10) {
@@ -20,7 +21,7 @@ int main() {
     printf("\n");
 
     // for
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i <= 5; i++) {
         printf("i = %d\n", i);
     }
     printf("\n");
